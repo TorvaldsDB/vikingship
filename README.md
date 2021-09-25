@@ -28,6 +28,12 @@
 - outline and shadow(边框和阴影)
 - configurable switch(可配置开关)
 
+## libraries installed
+
+- sass
+- classnames
+- @types/classnames
+
 ## Button attributes
 
 ```jsx
