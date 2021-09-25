@@ -5,7 +5,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button>hello</Button>
+        <Button
+          autoFocus
+          className="custom"
+          onClick={() => alert('clicked me')}
+        >
+          hello
+        </Button>
         <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>
           large primary
         </Button>
