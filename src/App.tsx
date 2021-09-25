@@ -6,10 +6,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Button>hello</Button>
+        <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>
+          large primary
+        </Button>
         <Button btnType={ButtonType.Primary} size={ButtonSize.Large} disabled>
-          hello
+          disabled button
+        </Button>
+        <Button btnType={ButtonType.Danger} size={ButtonSize.Small}>
+          small danger
         </Button>
         <Button btnType={ButtonType.Link} href="www.ekohe.com" disabled>
+          disabled link
+        </Button>
+        <Button btnType={ButtonType.Link} href="www.ekohe.com">
           Ekohe link
         </Button>
         <p>
