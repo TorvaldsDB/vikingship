@@ -1,4 +1,6 @@
-# File directory structure
+# Viking ship's gotta more and more powerful
+
+## File directory structure
 
 - viking/
   - READMD.md
@@ -17,11 +19,27 @@
       - _functions.scss(全局 functions)
     - index.tsx
 
-## 组件库样式变量分类
+## Component library style variable classification
 
-- 基础色彩系统
-- 字体系统
-- 表单
-- 按钮
-- 边框和阴影
-- 可配置开关
+- basic color system(基础色彩系统)
+- font family system(字体系统)
+- form(表单)
+- button(按钮)
+- outline and shadow(边框和阴影)
+- configurable switch(可配置开关)
+
+## Button attributes
+
+```jsx
+<Button
+  size="lg"
+  type="primary"
+  disabled
+  href=""?
+  className=""?
+  autoFocus=""?
+  ...
+>
+  Viking Button
+</Button>
+```
