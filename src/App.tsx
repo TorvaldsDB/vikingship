@@ -9,9 +9,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Menu
-          defaultIndex={0}
-          onSelect={(index) => console.log(index)}
+          defaultIndex="0"
+          onSelect={(index) => alert(index)}
           mode="vertical"
+          defaultOpenSubMenus={['2']}
         >
           <MenuItem>cool link</MenuItem>
           <MenuItem disabled>cool link 2</MenuItem>
@@ -22,7 +23,7 @@ function App() {
           </SubMenu>
           <MenuItem>cool link 3</MenuItem>
         </Menu>
-        <Menu defaultIndex={0} onSelect={(index) => console.log(index)}>
+        <Menu defaultIndex="0" onSelect={(index) => alert(index)}>
           <MenuItem>cool link</MenuItem>
           <MenuItem disabled>cool link 2</MenuItem>
           <SubMenu title="dropdown">
