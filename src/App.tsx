@@ -1,5 +1,7 @@
 import React from 'react';
 import Button, { ButtonType, ButtonSize } from './components/Button/button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import Menu from './components/Menu/menu';
 import MenuItem from './components/Menu/menuItem';
 import SubMenu from './components/Menu/subMenu';
@@ -8,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <FontAwesomeIcon icon={faCoffee} size="10x" color="green" />
         <Menu
           defaultIndex="0"
           onSelect={(index) => alert(index)}
